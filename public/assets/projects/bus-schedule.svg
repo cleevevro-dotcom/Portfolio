@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Bus schedule illustration</title>
+  <desc id="desc">A blue bus beside a route with three stops and departure times.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#111e3a"/>
+      <stop offset="1" stop-color="#224c88"/>
+    </linearGradient>
+    <linearGradient id="bus" x2="1" y2="1">
+      <stop stop-color="#69c2ff"/>
+      <stop offset="1" stop-color="#3173ce"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <g opacity=".12" stroke="#acd8ff" stroke-width="1">
+    <path d="M0 75h800M0 150h800M0 225h800M0 300h800M0 375h800M80 0v450M160 0v450M240 0v450M320 0v450M400 0v450M480 0v450M560 0v450M640 0v450M720 0v450"/>
+  </g>
+  <text x="66" y="74" fill="#c6e7ff" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">ROUTE PLANNER</text>
+  <path d="M75 124h650" stroke="#8dcafa" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 14" opacity=".75"/>
+  <g fill="#d9f2ff" stroke="#75c7ff" stroke-width="6"><circle cx="90" cy="124" r="13"/><circle cx="400" cy="124" r="13"/><circle cx="710" cy="124" r="13"/></g>
+  <g fill="#b6d7f9" font-family="Arial,sans-serif" font-size="16" font-weight="700"><text x="70" y="164">01</text><text x="381" y="164">02</text><text x="691" y="164">03</text></g>
+  <rect x="130" y="212" width="540" height="143" rx="28" fill="url(#bus)"/>
+  <path d="M161 212h456c23 0 41 18 41 41v46H142v-68c0-11 8-19 19-19Z" fill="#7fcfff"/>
+  <g fill="#173763"><rect x="173" y="230" width="122" height="63" rx="10"/><rect x="310" y="230" width="122" height="63" rx="10"/><rect x="447" y="230" width="122" height="63" rx="10"/></g>
+  <rect x="585" y="230" width="53" height="102" rx="8" fill="#235794"/>
+  <path d="M585 306h53" stroke="#90d6ff" stroke-width="4"/>
+  <rect x="145" y="313" width="49" height="14" rx="7" fill="#e1f8ff"/><rect x="638" y="313" width="24" height="14" rx="7" fill="#ffedaa"/>
+  <g fill="#10233e" stroke="#9cd6ff" stroke-width="9"><circle cx="243" cy="357" r="37"/><circle cx="566" cy="357" r="37"/></g>
+  <g fill="#e6f6ff"><circle cx="243" cy="357" r="13"/><circle cx="566" cy="357" r="13"/></g>
+  <text x="64" y="417" fill="#a7d2f7" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">SCHEDULES · BOOKINGS · SEATS</text>
+</svg>
